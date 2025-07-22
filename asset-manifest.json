@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/isadominguez-website/static/css/main.c9cf6ba1.css",
-    "main.js": "/isadominguez-website/static/js/main.2c6ac5de.js",
+    "main.js": "/isadominguez-website/static/js/main.b984330a.js",
     "static/media/peace-memoji.png": "/isadominguez-website/static/media/peace-memoji.c1c6e7c28d7bd620397a.png",
     "static/media/tounge-memoji.png": "/isadominguez-website/static/media/tounge-memoji.889ce44814003e69d5c3.png",
     "index.html": "/isadominguez-website/index.html",
     "main.c9cf6ba1.css.map": "/isadominguez-website/static/css/main.c9cf6ba1.css.map",
-    "main.2c6ac5de.js.map": "/isadominguez-website/static/js/main.2c6ac5de.js.map"
+    "main.b984330a.js.map": "/isadominguez-website/static/js/main.b984330a.js.map"
   },
   "entrypoints": [
     "static/css/main.c9cf6ba1.css",
-    "static/js/main.2c6ac5de.js"
+    "static/js/main.b984330a.js"
   ]
 }
