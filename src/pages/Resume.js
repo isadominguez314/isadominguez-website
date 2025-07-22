@@ -3,9 +3,11 @@ import '../styles/Resume.css';
 
 function Resume() {
     return (
-        <div id="resumeContainer">
-            <embed src="/WebsiteResume.pdf" type="application/pdf" style={{ transform: 'scale(1)', transformOrigin: 'top left' }} />
-        </div>
+        <embed
+            src={`${process.env.PUBLIC_URL}/WebsiteResume.pdf`}
+            type="application/pdf"
+            style={{ transform: 'scale(1)', transformOrigin: 'top left' }}
+        />
     );
 }
 
