@@ -1,0 +1,64 @@
+#playPage {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.playHeading {
+    font-size: 50px;
+    color: var(--dark-color);
+    font-family: var(--header-font);
+    text-decoration: none;
+    text-shadow: 0 0 20px var(--light-background), 0 0 20px var(--light-background), 0 0 20px var (--light-background), 0 0 20px var(--light-background);
+}
+
+#playPage h4 {
+    color:  var(--light-text);
+    font-family: var(--casual-body-font);
+    font-size: 20px;
+}
+
+.weeklyReportContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch; 
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.weeklyReportSection {
+    background-color: var(--light-color);
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(53, 15, 82, 0.2),
+                0 6px 6px rgba(53, 15, 82, 0.23); 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1; 
+}
+
+.weeklyReportLetter {
+    font-size: 70px;
+    color: var(--dark-color);
+    font-family: var(--header-font);
+    text-decoration: none;
+    text-shadow: 0 0 10px var(--light-background), 0 0 10px var(--light-background), 0 0 10px var(--light-background), 0 0 10px var(--light-background);
+}
+
+.weeklyReportSection h2 {
+    font-size: 25px;
+    font-family: var(--casual-body-font);
+    color: var(--dark-color);
+    margin: 0px;
+}
+
+.weeklyReportSection p {
+    color: var(--dark-color);
+    margin: 5px;
+    text-align: left;
+    width: 100%;
+    font-family: var(--casual-body-font); 
+}

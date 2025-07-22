@@ -1,0 +1,28 @@
+#homePage {
+    padding: 5% 10%;
+}
+#helloWorld {
+    font-family: var(--header-font);
+    font-size: 130px;
+    color: var(--dark-color);
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden; 
+    border-right: 0.10em solid; 
+    animation: blink-caret 0.75s step-end infinite; 
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: var(--dark-color); 
+    }
+}
+
+#homePage h1 {
+    color: var(--light-text);
+    font-size: 40px;
+    font-family: var(--casual-body-font);
+}

@@ -1,0 +1,31 @@
+
+.headerLink {
+    color: var(--light-text);
+    text-decoration: none;
+    font-size: 35px;
+    font-family: var(--header-font);
+  }
+  
+  .headerLink.active {
+    color: var(--dark-color); 
+  }
+  
+  .headerLink:hover {
+    color: var(--dark-color);
+    border-bottom: 3px solid var(--dark-color);
+    transition: 0.3s ease;
+  }
+  
+  #header {
+  
+    justify-content: space-between;
+  }
+  
+  #rightHeader {
+    gap: 50px;
+  }
+  
+  #memoji img:hover {
+    content: url('../photos/tounge-memoji.png')
+  }
+  

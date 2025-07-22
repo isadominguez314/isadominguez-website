@@ -1,0 +1,124 @@
+#experiencePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#experiencePage h2 {
+    font-size: 20px;
+    font-family: var(--casual-body-font);
+    color: var(--dark-color)
+}
+
+.experienceCard {
+    padding: 10px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.experienceName {
+    text-decoration: none;
+    font-size: 40px;
+    color: var(--dark-color);
+    font-family: var(--header-font);
+}
+
+.topLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:40px;
+}
+
+.bottomLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.experienceBox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+.experienceLine {
+    border-right: solid 4px var(--dark-color);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 1; 
+}
+
+.experienceCircle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2; 
+    color: var(--dark-color);
+    border-radius: 50%;
+    padding: 5px; 
+}
+
+.experienceContent {
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 10px 20px rgba(53, 15, 82, 0.2),
+                0 6px 6px rgba(53, 15, 82, 0.23); 
+    border-radius: 10px; 
+    background-color: var(--light-color);
+}
+
+.experienceLeft {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 10%;
+    align-items: center;
+    position: relative;
+}
+
+#experiencePage .skill {
+    border: 2px solid var(--dark-color);
+    height: auto;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 3px;
+    color: var(--dark-color);
+    margin: 0;
+    background-color: var(--light-background);
+    align-items: center;
+    justify-content: center;
+    font-family: var(--casual-body-font);
+    font-size: 20px;
+  }
+  
+#experiencePage .skillBar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    justify-content: left;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  .experienceLaunch {
+    color: var(--dark-color)
+  }
+
+  .experienceDescription p {
+    margin: 5px;
+    color: var(--dark-color);
+    font-family: var(--casual-body-font);
+  }
+
+  
