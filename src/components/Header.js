@@ -57,16 +57,6 @@ function Header() {
           </Link>
         </div>
         <div>
-          {/* <a href="https://isadominguez314.github.io/isadominguez-website/WebsiteResume.pdf" target="_blank" rel="noopener noreferrer">
-            Resume
-          </a>
-          <Link
-            to="/resume"
-            className={`headerLink ${activeLink === '/resume' ? 'active' : ''}`}
-            onClick={() => handleLinkClick('/resume')}
-          >
-            Resume
-          </Link> */}
           <Link
             to="#"
             className={`headerLink ${activeLink === '/resume' ? 'active' : ''}`}
