@@ -44,7 +44,7 @@ function Header() {
             className={`headerLink ${activeLink === '/projects' ? 'active' : ''}`}
             onClick={() => handleLinkClick('/projects')}
           >
-            Projects
+           Projects
           </Link>
         </div>
         <div>

@@ -9,6 +9,7 @@ function Home() {
     const message = 'Hello, World!';
 
     useEffect(() => {
+    
         if (index < message.length) {
             const timer = setTimeout(() => {
                 setText((prev) => prev + message[index]);

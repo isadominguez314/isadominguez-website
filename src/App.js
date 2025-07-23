@@ -6,11 +6,10 @@ import About from './pages/About.js';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import Play from './pages/Play';
-// import Resume from './pages/Resume';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div id="app">
         <Header/>
           <Routes>
@@ -19,7 +18,6 @@ function App() {
               <Route path="/experience" element={<Experience />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/play" element={<Play />} />
-              {/* <Route path="/resume" element={<Resume />} /> */}
           </Routes>
       </div>
     </Router>
