@@ -14,10 +14,10 @@ function Play ()
                 <div className="weeklyReportSection"> 
                     <Link className="weeklyReportLetter"> R </Link>
                     <h2> Reading</h2>
+                    <p> ★ Atmosphere </p>
                     <p> ★ Yours Truly </p>
                     <p> ★ Brave New Words </p>
                     <p> ★ The Silent Patient </p>
-                    <p> ★ An Abundance of Katherines </p>
                     <p> ★ Anything by Emily Henry, Abby Jimenez, or Taylor Jenkins Reid </p>
                 </div>
                 <div className="weeklyReportSection"> 
@@ -26,16 +26,16 @@ function Play ()
                     <p> ★ Bagels and cream cheese </p>
                     <p> ★ Deep dish pizza </p>
                     <p> ★ Crispy green grapes </p>
-                    <p> ★ Trader Joe's cookie butter ice cream </p>
-                    <p> ★ Simply ruffles and white cheddar cheetos puffs</p>
+                    <p> ★ Trader Joe's Sublime Ice Cream Sandwiches </p>
+                    <p> ★ Simply Ruffles and White Cheddar Cheetos Puffs</p>
                 </div>
                 <div className="weeklyReportSection"> 
                     <Link className="weeklyReportLetter"> P </Link>
                     <h2> Playing </h2>
                     <p> ★ Volleyball </p>
-                    <p> ★ Knitting, pottery, and woodworking  </p>
+                    <p> ★ Crafts like knitting, pottery, and beaded flowers </p>
                     <p> ★ Fantasy football </p>
-                    <p> ★ Hotseat </p>
+                    <p> ★ Rose, thorn, bud </p>
                     <p> ★ NYT Digits (it was archived so I coded my own!) </p>
                 </div>
                 <div className="weeklyReportSection"> 
@@ -45,7 +45,7 @@ function Play ()
                     <p> ★ Junk journaling </p>
                     <p> ★ Pi (I was born on 3/14!) </p>
                     <p> ★ Ear piercing stacks </p>
-                    <p> ★ My matcha green kindle basic </p>
+                    <p> ★ My Kindle </p>
                 </div>
                 <div className="weeklyReportSection"> 
                     <Link className="weeklyReportLetter"> R </Link>
@@ -60,9 +60,9 @@ function Play ()
                 <div className="weeklyReportSection"> 
                     <Link className="weeklyReportLetter"> T </Link>
                     <h2> Treating </h2>
-                    <p> ★ Cherry and cotton candy jelly bellies </p>
+                    <p> ★ Cherry and cotton candy Jelly Bellies </p>
                     <p> ★ Pilot G2 gel pens</p>
-                    <p> ★ Strawberry lemonade </p>
+                    <p> ★ Raspberry lemonade </p>
                     <p> ★ An episode of New Girl or Modern Family </p>
                     <p> ★ A lake day on Lake Michigan or Percy Priest </p>
                 </div>
